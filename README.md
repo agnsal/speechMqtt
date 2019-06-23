@@ -1,7 +1,7 @@
 # speechMqtt
 This project contains 2 Python programs:
-- A Python 3 agent, that allows to give vocal commands to a MicroPython program running on another device thanks to Speech Recognition library and paho-mqtt library.
-- The MicroPython program for the other device (Lego Mindstorms EV3, for example)
+- speechPub.py: a Python 3 agent, that allows to give vocal commands to a MicroPython program running on another device thanks to Speech Recognition library and paho-mqtt library.
+- upythonDeviceSub.py: the MicroPython program for the other device (Lego Mindstorms EV3, for example)
 
 For mode information, see: https://pypi.org/project/SpeechRecognition/ and https://www.eclipse.org/paho/ .
 
