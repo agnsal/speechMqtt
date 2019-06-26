@@ -28,9 +28,9 @@ jobs:
             - v1-dependencies-
 
       - run:
-          name: install pyAudio dependencies
+          name: install pyAudio
           command: | 
-            sudo apt-get install portaudio19-dev
+            sudo apt-get install portaudio19-dev python-pyaudio python3-pyaudio
           name: install dependencies
           command: |
             python3 -m venv venv
